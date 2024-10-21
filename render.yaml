@@ -1,0 +1,12 @@
+version: 1
+services:
+  - type: web
+    name: CloudCabinet
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: SECRET
+        value: "your_secret_key"  # Placeholder, users should replace this
+    plan: free
+    region: ohio
