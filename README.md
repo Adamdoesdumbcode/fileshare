@@ -10,3 +10,5 @@ Under the "Environment" section, set a new environment variable:
 Variable name = SECRET_KEY
 Value: Your own secret key (e.g., supersecretkey). If in RARE cases the link isnt working, Simply go to your dashboard and click blueprints at the time. Create New Blueprint then scroll down and paste the github link in the Public Git repository Area then press Continue and it should do it for you.
 
+## License
+This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
